@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body class="todo">
+    <header>
+        <h1 class="titulo">Contacto</h1>
+    </header>
+    <main class="mitad">
+        <nav class="barra">
+            <ul class="sub">
+                <li>
+                    <a class="inicio" href="../index.html">
+                        <i class="fa-solid fa-house"></i>Inicio
+                    </a>
+                </li>
+                <li>
+                    <a class="cont" href="contacto.html">
+                        <i class="fa-solid fa-square-phone"></i>Contacto
+                    </a>
+                </li>
+                <li>
+                    <a class="prod" href="producto.html">
+                        <i class="fa-solid fa-cart-shopping"></i>Producto
+                    </a>
+                </li>
+                <li>
+                    <a class="tiend" href="tienda.html">
+                        <i class="fa-solid fa-circle-dollar-to-slot"></i>Tienda
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <form action="gracias.html" method="post" class="info">
+            <label for="">Nombre</label>
+            <input class="control" type="text" required>
+            <br>
+            <label for="">Apellido</label>
+            <input class="control" type="text" maxlength="5" required>
+            <br>
+            <label for="">Nacimiento</label>
+            <input class="control" type="date">
+            <br>
+            <label for="">Telefono</label>
+            <input class="control" type="tel">
+            <br>
+            <label for="">Email</label>
+            <input class="control" type="email" required>
+            <br>
+            <label for="">¿Que categoria te gusta mas?</label>
+            <select>
+                <option value="C">Compus</option>
+                <option value="A">Autos</option>
+                <option value="M">Muebles</option>
+                <option value="R">Ropa</option>
+                <option value="E">Electrodomesticos</option>
+            </select>
+            <br><br>
+            <label for="">Consulta</label>
+            <textarea class="control" maxlength="150" cols="20" rows="5"></textarea>
+            <br>
+            <br>
+            <label for="">Acepto los terminos</label>
+            <input type="checkbox">
+            <br>
+            <br>
+            <button type="submit" class="enviar">Enviar</button>
+            <button type="reset" class="limpiar">Limpiar</button>
+            </form>
+            <br>
+            <br>
+    </main>
+
+    <footer>
+        <p class="credito">Thiago | 2022 | dandreathiago@gmail.com</p>
+    </footer>
+</body>
+</html>
